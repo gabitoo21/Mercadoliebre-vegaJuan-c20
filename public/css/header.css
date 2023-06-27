@@ -1,0 +1,17 @@
+.header{
+    background-color: var(--paletadecolores-amarillo);
+    font-family: var(--tipografia);
+    font-size: var(--tamano-cuerpo);
+
+}
+.header h3 {
+    text-align: center;
+}
+
+.barra-de-busqueda input[type="text"] {
+    width: 230px;
+  }
+
+.barra-de-busqueda button[type="submit"] {
+    display: block;
+  }

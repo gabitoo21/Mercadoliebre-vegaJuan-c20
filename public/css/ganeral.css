@@ -1,0 +1,26 @@
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+:root{
+    --tipografia : "Roboto", sans-serif;
+    --tamano-cuerpo: 12px;
+    --tamano-titular: 24px;
+    --tamano-precio: 18px;
+    --tamano-descuento: 16px;
+    --tamano-descripcion: 16px;
+    --paletadecolores-amarillo: #EAC926;
+    --paletadecolores-azul: #03264C;
+    --paletadecolores-celeste: #1259c3;
+    --paletadecolores-gris-oscuro: #666;
+    --paletadecolores-gris-claro: #ebebeb;
+    --paletadecolores-verde: #39b54a;
+}
+
+li {
+    list-style: none;
+}
+ul {
+    padding: 0px 0px 0px 0px;
+}
