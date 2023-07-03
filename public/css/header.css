@@ -2,7 +2,7 @@
     background-color: var(--paletadecolores-amarillo);
     font-family: var(--tipografia);
     font-size: var(--tamano-cuerpo);
-
+    padding-bottom: 1px;
 }
 .header h3 {
     text-align: center;
@@ -14,4 +14,17 @@
 
 .barra-de-busqueda button[type="submit"] {
     display: block;
-  }
+}
+
+.burger-menu {
+  background-color: blue;
+  width: fit-content;
+  margin: 0 auto 20px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.burger-menu i {
+  color: white;
+  font-size: 20px;;
+}

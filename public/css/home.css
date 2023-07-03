@@ -1,3 +1,10 @@
+.home-main {
+    background-color: var(--paletadecolores-gris-claro);
+}
+
+.home-main .articulo{
+    background-color: white;
+}
 .home-main .precio {
     font-size: 18px;
 }

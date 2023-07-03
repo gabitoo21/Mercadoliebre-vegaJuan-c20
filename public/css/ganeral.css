@@ -24,3 +24,7 @@ li {
 ul {
     padding: 0px 0px 0px 0px;
 }
+
+body {
+    background-color: var(--paletadecolores-gris-claro);
+}
