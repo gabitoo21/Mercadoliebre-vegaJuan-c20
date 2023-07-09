@@ -1,10 +1,20 @@
 .home-main {
     background-color: var(--paletadecolores-gris-claro);
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.home-main img {
+    max-width: 100%;
+    height: auto;
 }
 
 .home-main .articulo{
     background-color: white;
+    margin-bottom: 10px;
 }
+
 .home-main .precio {
     font-size: 18px;
 }
@@ -12,4 +22,28 @@
 .home-main p {
     font-size: 16px;
 }
+.home-main .descuento {
+    color: green;
+    margin-bottom: 15px;
+}
+
+.home-main .descripcion {
+    display: none;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+@media (min-width: 426px){
+    .home-main .descripcion {
+        display: block;
+    }
+    .home-main .articulo{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-width: 769px){
+
+}
+
 

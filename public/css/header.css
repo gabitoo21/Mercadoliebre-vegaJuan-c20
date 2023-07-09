@@ -3,9 +3,11 @@
     font-family: var(--tipografia);
     font-size: var(--tamano-cuerpo);
     padding-bottom: 1px;
+    padding-left: 16px;
 }
 .header h3 {
     text-align: center;
+    margin-top: 20px;
 }
 
 .barra-de-busqueda input[type="text"] {
@@ -13,18 +15,35 @@
   }
 
 .barra-de-busqueda button[type="submit"] {
-    display: block;
+    display: inline-block;
 }
 
 .burger-menu {
   background-color: blue;
   width: fit-content;
-  margin: 0 auto 20px;
-  padding: 8px;
+  margin: 20px auto 20px;
+  padding: 10px;
   border-radius: 10px;
 }
 
 .burger-menu i {
   color: white;
   font-size: 20px;;
+}
+
+.header .siteandlogin{
+  display: none;
+}
+
+@media (min-width:426px){
+  .header .siteandlogin{
+    display: block;
+  }
+  .header .burger-menu {
+    display: none;
+  }
+}
+
+@media (min-with: 769px){
+
 }

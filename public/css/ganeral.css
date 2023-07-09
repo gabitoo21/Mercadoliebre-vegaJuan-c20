@@ -17,6 +17,9 @@ font-family: 'Roboto', sans-serif;*/
     --paletadecolores-gris-claro: #ebebeb;
     --paletadecolores-verde: #39b54a;
 }
+* {
+    margin: 0;
+}
 
 li {
     list-style: none;
@@ -27,4 +30,5 @@ ul {
 
 body {
     background-color: var(--paletadecolores-gris-claro);
+
 }
