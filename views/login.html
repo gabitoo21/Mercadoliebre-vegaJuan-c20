@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Login</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado Liebre</title>
-    <script src="https://kit.fontawesome.com/0a4608b12c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/0a4608b12c.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="body-login">
     <header class="header">
         <img src="/img/logo-mercado-liebre.svg" alt="logo" style="max-width: 238px; height: auto;">
         <form class="barra-de-busqueda" action="/buscar" method="GET">
@@ -34,4 +34,39 @@
                 <i class="fas fa-bars"></i>
             </div>
     </header>
+    <main class="home-login">
+        <form class="home-login-form" action="/views/login.html" method="post">
+            <section class="home-login-section">
+                <h1>Iniciar Sesion</h1>
+                <div class="home-login-input">
+                    <input class="input-entrada-login" type="text" name="usuario" placeholder="Nombre de usuario">
+                    <input class="input-entrada-login" type="text" name="password" placeholder="contrasena">
+                    <button class="button-submit-login" type="submit">Accede</button>
+                </div>
+            </section>
+        </form>
+    </main>
+    <footer class="home-footer">
+        <div class="articulos">
+            <div class="tarjeta">
+                <i class="fa-solid fa-credit-card"></i>
+                <h4>● Pagá con tarjeta o en efectivo</h4>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </div>
+            <div class="envio">
+                <i class="fa-solid fa-gift"></i>
+                <h4>● Envío gratis desde $2.500</h4>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </div>
+            <div class="seguridad">
+                <i class="fa-solid fa-user-shield"></i>
+                <h4>● Seguridad, de principio a fin</h4>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+            </div>
+        </div>
+        <div class="copyright">
+        <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </div>
+    </footer>
+
 </body>

@@ -64,7 +64,7 @@ input::placeholder {
     margin-right: 30px;
 }
   
-button {
+.button-submit {
     background-color: var(--paletadecolores-verde);
     color: #ffffff;
     border: none;
@@ -73,7 +73,12 @@ button {
     font-size: 16px;
 }
   
-button[type="reset"] {
+.button-reset {
     background-color: red;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
     margin-left: 15px;
 }
