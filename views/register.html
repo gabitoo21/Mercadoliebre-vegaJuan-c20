@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="home">
+        <form class="home-form" action="/views/register.html" method="post">
+        <section>
+            <h1>Registro de usuario</h1>
+            <div>
+                <input class="input-entrada" type="text" name="nomre" placeholder="Nombre y Apellido">
+                <input class="input-entrada" type="text" name="usuario" placeholder="Nombre de usuario">
+                <input class="input-entrada" type="email" name="email" placeholder="E-mail">
+            </div>
+        </section>
+        <section>
+            <h1>Fecha de nacimiento</h1>
+            <div>
+                <input class="input-entrada" type="date" name="brithday">
+            </div>
+        </section>
+        <section class="usuario">
+            <h1>Perfil de usuario</h1>
+            <div class="contenedor-radio">
+            <div>
+                <input type="radio" name="unico" id="comprador" value="comprador">
+                <label for="comprador">comprador</label>
+            </div>
+            <div>
+                <input type="radio" name="unico" id="vendedor" value="vendedor">
+                <label for="vendedor">vendedor</label>
+            </div>
+            </div>
+        </section>
+        <section>
+            <h1>intereses</h1>
+            <div>
+                <input type="checkbox" name="electro" id="electro">
+                <label for="electro">Electro</label>
+            </div>
+            <div>
+                <input type="checkbox" name="moda" id="moda">
+                <label for="moda">Moda</label>
+            </div>
+            <div>
+                <input type="checkbox" name="hogar" id="hogar">
+                <label for="hogar">Hogar</label>
+            </div>
+            <div>
+                <input type="checkbox" name="juguetes" id="jugueteria">
+                <label for="jugueteria">Jugeteria</label>
+            </div>
+            <div>
+                <input type="checkbox" name="vidasana" id="vidasana">
+                <label for="vidasana">Vida sana</label>
+            </div>
+        </section>
+        <section>
+            <h3>Foto de usuario</h3>
+            <input type="file" name="foto">
+        </section>
+        <div>
+            <input class="input-entrada" type="password" name="password" placeholder="contrasena">
+            <input class="input-entrada" type="password" name="confirmpassword" placeholder="confirmar contrasena">
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </div>
+    </form>
+    </main>
+</body>
+</html>
