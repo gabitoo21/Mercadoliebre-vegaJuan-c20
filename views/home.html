@@ -8,13 +8,27 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header class="header">
-        <img src="/img/logo-mercado-liebre.svg" alt="logo" style="max-width: 238px; height: auto;">
-        <form class="barra-de-busqueda" action="/buscar" method="GET">
-            <input type="text" name="q" placeholder="Buscar productos, marcas">
-            <button type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
-          </form>
-        <h3> <i class="fa-solid fa-hand-holding-dollar"></i> compra en cueotas y sin tarjeta de credito</h3>
+    <header class="header"> 
+        <div class="contenedor">
+            <div class="box1">
+                <img src="/img/logo-mercado-liebre.svg" alt="logo">
+            </div>
+        <div class="box">
+          <form class="barra-de-busqueda" action="/buscar" method="post">
+            <div class="barra-junta"> 
+                <input type="text" name="q" placeholder="Buscar productos, marcas...">
+                <button type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+            </div>
+           </form>
+           <div class="comprita">
+            <h3> <i class="fa-solid fa-hand-holding-dollar"></i> compra en cueotas y sin tarjeta de credito</h3>
+        </div>
+          </div>
+        </div>
+        <div class="compra">
+            <h3> <i class="fa-solid fa-hand-holding-dollar"></i> compra en cueotas y sin tarjeta de credito</h3>
+        </div>
+        <div class="contenedor-a">
         <nav class="siteandlogin">
             <ul>
                 <li><a href="/ofertas">Ofertas</a></li>
@@ -29,17 +43,19 @@
                 <li><a href="/login">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a></li>
                 <li><a href="/compras">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
             </ul>
+        </div>
         </nav>
             <div class="burger-menu">
                 <i class="fas fa-bars"></i>
             </div>
     </header>
-    <main class="home-main">
-        <div class="banner">
+    <div class="banner">
         <img src="/img/img-home-banner.jpg" alt="banner">
         </div>
+    <main class="home-main">
         <section>
             <h3>Seccion: Basado en tu ultima visita</h3>
+            <div class="ultima">
             <article class="articulo">
                 <img src="/img/img-cafetera-moulinex.jpg" alt="cafetera">
                 <div class="descripcion">
@@ -72,9 +88,11 @@
                 <p>SmartTv Samsung 43"</p>
                 </div>
             </article>
+            </div>
         </section>
         <section>
             <h3>Seccion de Ofertas</h3>
+            <div class="oferta">
             <article class="articulo">
                 <img src="/img/img-cafetera-moulinex.jpg" alt="cafetera">
                 <div class="descripcion">
@@ -107,6 +125,7 @@
                 <p>SmartTv Samsung 43"</p>
                 </div>
             </article>
+            </div>
             
         </section>
     </main>
