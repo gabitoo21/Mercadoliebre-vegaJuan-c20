@@ -23,6 +23,7 @@
 .home-main .articulo{
     background-color: white;
     margin-bottom: 10px;
+
 }
 
 .home-main .precio {
@@ -43,6 +44,8 @@
     padding: 15px;
 }
 
+
+
 @media (min-width: 426px){
     
     .home-main .descripcion {
@@ -52,27 +55,10 @@
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
-    .ultima {
+    .info {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .ultima .articulo {
-        flex-basis: 47%;
-        margin-bottom: 30px;
-
-    }
-
-    .oferta {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .oferta .articulo {
-        flex-basis: 47%;
-        margin-bottom: 30px;
+        justify-content:space-around;
+        text-align: right
 
     }
 
