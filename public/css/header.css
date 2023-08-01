@@ -171,5 +171,25 @@
 
 
 @media (min-width: 769px){
+  .contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+    ;
+  }
 
+  .box1 img {
+    width: 90%;
+    margin-left: 15%;
+  }
+  .contenedor .box input {
+    display: flex;
+    border-radius: 0;
+    border: none;
+
+  }
+
+  .box {
+    margin-left: 100px;
+  }
 }

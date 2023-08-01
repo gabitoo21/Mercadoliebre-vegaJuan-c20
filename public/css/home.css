@@ -92,6 +92,28 @@
 
 
 @media (min-width: 426px){
+
+    .ultima {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .ultima .articulo {
+        flex-basis: 48%;
+    }
+
+    .oferta {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .oferta .articulo {
+        flex-basis: 48%;
+    }
     
     .home-main .descripcion {
         display: block;
